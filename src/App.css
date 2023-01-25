@@ -119,7 +119,10 @@ margin-left: auto;
   padding-bottom: 5px;
   height: 100px;
 }
-
+.btn-next:hover{
+  background-color:var(--Marineblue) ;
+  cursor: pointer;
+}
   
 }
 @media screen and (min-width:768px) and (max-width:821px) {

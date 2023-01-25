@@ -16,7 +16,7 @@ export default function Form() {
     emailEmptyClass,
     phoneNumberEmptyClass,
   } = React.useContext(StepContext);
-console.log(isEmptyClass)
+
 
 
   return (

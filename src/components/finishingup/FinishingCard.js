@@ -1,12 +1,17 @@
 import React from "react";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink} from "react-router-dom";
 import "./styles/styles.css";
 import { StepContext } from "../../context/StepContext";
+import { Helmet } from "react-helmet";
 export default function FinishingCard(props) {
   const {check} = React.useContext(StepContext)
-  const navigate = useNavigate()
+
+  
   return (
     <main className="finishing-card"> 
+     <Helmet>
+        <title>Finishing up</title>
+      </Helmet>
       <div className="sections-wrap">
         <section className="firststep-wrap">
           <div className="pinfo-wrap">

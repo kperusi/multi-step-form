@@ -1,9 +1,13 @@
 import React from 'react'
 import styles from './styles/styles.module.css'
 import icon from './icon-thank-you.svg'
+import { Helmet } from 'react-helmet'
 export default function ThankYou() {
   return (
     <main className={styles.main}>
+       <Helmet>
+        <title>Thank You</title>
+      </Helmet>
         <section className={styles.imgSection}>
             <img src={icon} alt="thank you icon" />
         </section>

@@ -6,6 +6,7 @@ import advance from './icon-advanced.svg'
 import arcade from './icon-arcade.svg'
 import pro from './icon-pro.svg'
 import Toggle from "../toggle/Toggle";
+import { Helmet } from "react-helmet";
 import { PlanContext } from "./PlanContext";
 import { StepContext } from "../../context/StepContext";
 const initialValues={
@@ -49,6 +50,9 @@ dispatch({type:'month'})
 
   return (
     <main className={styles.selectyourplan}>
+       <Helmet>
+        <title>Select Plans</title>
+      </Helmet>
       <PlanContext.Provider value={{states:states,check:check}}>
   
 
