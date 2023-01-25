@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Ubuntun';
+    src: url(./Ubuntu-Regular.ttf);
+}
+.main{
+    font-family: 'Ubuntu';
+    padding: 5px;
+}
+.title{
+    margin-bottom: 0;
+}
+.desc{
+    margin-top: -20px;
+    color: hsl(231, 11%, 63%);
+    font-weight: 400;
+}
+@media screen and (min-width:180px) and (max-width:767px) {
+    .desc{
+        margin-top: -10px;
+        color: hsl(231, 11%, 63%);
+        font-weight: 400;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:821px) {
+    .main{
+        font-family: 'Ubuntu';
+        padding: 5px;
+        font-size: 2.2rem;
+    }
+}

@@ -1,0 +1,183 @@
+@font-face {
+    font-family: 'Ubuntu';
+    src: url(./fonts/Ubuntu-Regular.ttf);
+}
+.selectyourplan{
+    display: flex;
+    flex-direction: column;
+    height: var(--pageheight);
+    width: var(--pagewidth);
+    padding-left: 10px;
+    /* border: solid; */
+}
+.selectCardWrap{
+    display: flex;
+    /* border: 2px solid; */
+    gap: 40px;
+    margin-top: 20px;
+    justify-content: center;
+    width:var(--pagewidth);
+}
+.selectCard{
+    font-family: 'Ubuntu';
+    border: 1.3px solid hsl(229, 24%, 87%);
+    width: 160px;
+    border-radius: 5px;
+    padding: 10px;
+    padding-bottom: 0;
+   
+}
+.selectCard:hover{
+    cursor: pointer;
+    border: 1.3px solid var(--Marineblue);
+}
+.h4{
+    margin-bottom: -12px;
+}
+.p{
+    color: hsl(231, 11%, 63%);
+}
+
+@media  (min-width:180px)and (max-width:767px) {
+  
+
+      .selectyourplan{
+        display: flex;
+        flex-direction: column;
+        height:600px;
+        width: 90%;
+        border-radius: 10px;
+        /* border: solid; */
+        margin: -40px auto;
+        background-color: var(--White);
+        box-shadow:1px 1px 10px 1px hsl(0, 7%, 87%);
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+      .selectCardWrap{
+        display: flex;
+        flex-direction: column;
+        /* border: 2px solid red; */
+        gap: 10px;
+        margin-top: 10px;
+        justify-content: center;
+      
+       width: 100%;
+      
+    }
+    .selector{
+        width: 100%;
+    }
+    .selectCard{
+        display: flex;
+        flex-direction: row;
+        font-family: 'Ubuntu';
+        border: 1.3px solid hsl(229, 24%, 87%);
+        width: 100%;
+        border-radius: 5px;
+        padding: 10px;
+        padding-left: 10px;
+
+    }
+    .descWrap{
+        display:flex;
+        flex-direction: column;
+        padding: 10px;
+        /* border: solid; */
+        width: 60%;
+        height: 80px;
+
+    }
+    .p{
+        margin-bottom: 0px;
+        /* border: solid; */
+    }
+    .p2{
+        margin-top: 0;
+    }
+    .h4{
+        margin-top: 0;
+    }
+    .img{
+      
+        width: 60px;
+    }
+}
+
+
+
+@media  (min-width:768px)and (max-width:821px) {
+  
+
+    .selectyourplan{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height:1200px;
+      width: 90%;
+      border-radius: 18px;
+      margin: -120px auto;
+      background-color: var(--White);
+      box-shadow:1px 1px 10px 1px hsl(0, 7%, 87%);
+      padding-right: 25px;
+      padding-left: 25px;
+  }
+
+    .selectCardWrap{
+      display: flex;
+      flex-direction: column;
+      /* border: 2px solid red; */
+      gap: 40px;
+      margin-top: 10px;
+      justify-content: center;
+    
+     width: 100%;
+    
+  }
+  .selector{
+      width: 100%;
+      height: 150px;
+     
+  }
+  .selectCard{
+      display: flex;
+      flex-direction: row;
+      font-family: 'Ubuntu';
+      border: 4px solid var(--Purplishblue);
+      width: 100%;
+      border-radius: 12px;
+      padding: 10px;
+      padding-left: 10px;
+      /* font-size: 2rem; */
+      height: 180px;
+
+  }
+  .descWrap{
+      display:flex;
+      flex-direction: column;
+      padding: 10px;
+      /* border: solid; */
+      width: 60%;
+      height: 100%;
+      font-size: 2.5rem;
+      margin-left: 24px;
+
+  }
+  .p{
+      margin-bottom: 0px;
+      /* border: solid; */
+      margin-top: 20px;
+  }
+  .p2{
+      margin-top: 0;
+  }
+  .h4{
+      margin-top: 0;
+  }
+  .img{
+    margin-left: 20px;
+      width: 130px;
+  }
+
+}

@@ -1,0 +1,127 @@
+:root{
+    --padding:15px;
+}
+.mains {
+    width: var(--pagewidth);
+    height: var(--pageheight);
+    font-family: "Ubuntu";
+}
+
+.finishing-card {
+    display: flex;
+    flex-direction: column;
+}
+.sections-wrap {
+    background-color: var(--Magnolia);
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    
+}
+.firststep-wrap {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+}
+.pinfo-wrap {
+    display: flex;
+    flex-direction: column;
+}
+.navlink {
+    margin-top: -20px;
+    color: var(--Coolgray);
+}
+.amount-wraps {
+    display: flex;
+}
+.h4-sm {
+    display: flex;
+    font-weight: 100;
+    font-size: 0.9em;
+    color: var(--Marineblue);
+}
+
+.online-wrap,
+.large-storage-wrap {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    margin-bottom: -8px;
+}
+.large-storage, .online{
+    color: var(--Coolgray);
+}
+.h1-arcade{
+    color: var(--Marineblue);
+}
+.h3-b{
+    color: var(--Marineblue);
+}
+.line {
+    // width: 100%;
+    height: 1px;
+    border: 1px solid var(--Coolgray);
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+.total{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left:var(--padding);
+    padding-right:var(--padding);
+
+}
+.p-total{
+    color: var(--Coolgray);
+}
+
+@media screen and (min-width:180px) and (max-width:767px) {
+    .mains {
+        width: 90%;
+        height: var(--pageheight);
+        font-family: "Ubuntu";
+        background-color: var(--White);
+        margin: -40px auto;
+        border-radius: 10px;
+        padding-right: 15px;
+        padding-left: 15px;
+
+    }
+
+    .h1-arcade{
+        font-size: 1.2rem;
+    }
+    
+}
+@media screen and (min-width:768px) and (max-width:821px) {
+    .mains {
+        width: 90%;
+        height:800px;
+        font-family: "Ubuntu";
+        background-color: var(--White);
+        margin: -120px auto;
+        border-radius: 10px;
+        padding-right: 25px;
+        padding-left: 25px;
+
+    }
+
+    .h1-arcade{
+        font-size: 2.2rem;
+    }
+    .finishing-card{
+        font-size: 2.2rem;
+    }
+    .total h1{
+        font-size: 2.3rem;
+    }
+  
+    
+}
