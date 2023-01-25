@@ -25,6 +25,10 @@ input {
   padding-left: 10px;
 }
 
+input:hover {
+  cursor: pointer;
+}
+
 .labelwrap {
   display: flex;
   width: 100%;

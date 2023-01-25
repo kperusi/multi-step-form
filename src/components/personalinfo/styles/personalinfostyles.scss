@@ -26,6 +26,9 @@ input {
   font-size: 16px;
   padding-left: 10px;
 }
+input:hover{
+  cursor: pointer;
+}
 
 .labelwrap{
   display: flex;

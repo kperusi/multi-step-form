@@ -11,6 +11,12 @@
     display: flex;
     flex-direction: column;
 }
+.finishing-card:hover{
+    cursor: pointer;
+}
+.navlink:hover{
+    color: var(--Marineblue);
+}
 .sections-wrap {
     background-color: var(--Magnolia);
     display: flex;
@@ -30,7 +36,7 @@
     flex-direction: column;
 }
 .navlink {
-    margin-top: -20px;
+    margin-top: -15px;
     color: var(--Coolgray);
 }
 .amount-wraps {

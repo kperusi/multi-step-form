@@ -19,6 +19,10 @@
   height: 80px;
 }
 
+.card:hover {
+  cursor: pointer;
+}
+
 .input-wrap {
   width: 15%;
   display: flex;

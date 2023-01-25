@@ -1,11 +1,12 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import "./styles/styles.css";
 import { StepContext } from "../../context/StepContext";
 export default function FinishingCard(props) {
   const {check} = React.useContext(StepContext)
+  const navigate = useNavigate()
   return (
-    <main className="finishing-card">
+    <main className="finishing-card"> 
       <div className="sections-wrap">
         <section className="firststep-wrap">
           <div className="pinfo-wrap">
@@ -13,6 +14,7 @@ export default function FinishingCard(props) {
             <NavLink className="navlink" to="/personalInfo">
               Change
             </NavLink>
+           
           </div>
           <div className="amount-wraps">
             <h3 className="h3-b">
